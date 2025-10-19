@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #fef3c7, #dbeafe);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+.title {
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+.todo-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.todo-form input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #2563eb;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.todo-form button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.todo-form button:hover {
+  background-color: #1e40af;
+}
+.todo-list {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.todo-item {
+  background-color: #1a447a;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo-item button {
+  background-color: #ef4444;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+.todo-item button:hover {
+  background-color: #b91c1c;
+}
